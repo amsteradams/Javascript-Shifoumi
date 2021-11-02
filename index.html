@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=B612&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Shifoumi</title>
+</head>
+<body>
+<!--ECRAN DE DEPART--> 
+<div id="dMenu">
+    <div id="dTitre">
+        <h1>SHIFOUMI</h1>
+    </div>
+    <div id="dRegles">
+        <h3>Les règles : </h3>
+        <p>Le jeu Shifoumi est un petit jeu convivial qui se joue avec les mains à un contre un ou contre plusieurs adversaires. Mêlant hasard et prise de décision ce petit jeu trouve ses origines en Chine ou il était appelé « Shoushiling ».</p>
+    </div>
+    <div id="diff">
+        <div id="difP">
+            <p>Nombre de manches : </p>
+        </div>
+        <div id="difChoix">
+            <button class="choidif" id="coup1">1</button>
+            <button class="choidif" id="coup3">3</button>
+            <button class="choidif" id="coup10">10</button>
+        </div>
+    </div>
+    <div id="btnPlay">
+        <button id="play">Jouer</button>
+    </div>
+</div>   
+<!--ECRAN DE JEU-->    
+<div id="menu">
+    <div class="jj1" id="joueur1">
+        <div id="pier1" class="pier prop prop1 choix1">
+            <img src="pierre.jpg" alt="pierre">
+        </div>
+        <div id="feuil1" class="feuil prop prop1 choix2">
+            <img src="feuille.jpg" alt="feuille">
+        </div>
+        <div id="cis1" class="cis prop prop1 choix3">
+            <img src="ciseaux.jpg" alt="ciseaux">
+        </div>
+    </div>
+    <div id="centre">
+        <div id="space1" class="space-game">
+            <p>Invité</p>
+            <div class="prop-game" id="prop-game1"></div>
+            <p>Score : </p><p id="score1"></p>
+            <button class="btnEcranJeu" id="refresh">Acceuil</button>
+        </div>
+        <div id="space2" class="space-game">
+            <p>Ordinateur</p>
+            <div class="prop-game" id="prop-game2"></div>
+            <p>Score : </p><p id="score2"></p>
+            <button class="btnEcranJeu" id="recommencer">Recommencer</button>
+        </div>
+    </div>
+    <div id="joueur2">
+        <div id="pier2" class="pier prop prop2 p2choix1">
+            <img src="pierre.jpg" alt="pierre">
+        </div>
+        <div id="feuil2" class="feuil prop prop2 p2choix2">
+            <img src="feuille.jpg" alt="feuille">
+        </div>
+        <div id="cis2" class="cis prop prop2 p2choix3">
+            <img src="ciseaux.jpg" alt="ciseaux">
+        </div>
+    </div>
+</div>
+<div id="perdu">
+    <div class="ctnTitre">
+        <h1>Perdu...</h1>
+    </div>
+    <div class="ctn">
+        <button class="btnEcranJeu" id="refresh1">Acceuil</button>
+        <button class="btnEcranJeu" id="recommencer1">Recommencer</button>
+    </div>
+</div>
+<div id="gagne">
+    <div class="ctnTitre">
+        <h1>Bravo, c'est gagné !</h1>
+    </div>
+    <div class="ctn">
+        <button class="btnEcranJeu" id="refresh2">Acceuil</button>
+        <button class="btnEcranJeu" id="recommencer2">Recommencer</button>
+    </div>
+
+</div>   
+<script src="script.js"></script>
+</body>
+</html>

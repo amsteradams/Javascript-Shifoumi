@@ -1,0 +1,230 @@
+body{
+    border:0;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    background-color: #2a2a2a;
+    font-family: 'B612', sans-serif;
+    color: white;
+}
+button{
+    border: none;
+    background-color: #2a2a2a;
+    color: white;
+    font-family: "B612", sans-serif;
+    border-radius: 4px;
+}
+/*ECRAN DE DEPART*/
+#dMenu{
+
+    width: 70vw;
+    height: 90vh;
+    border-radius: 4px;
+    background-color: #978a87;
+    display: flex;
+    flex-direction: column;
+}
+#dTitre{
+
+    width: 100%;
+    height: 25%;
+}
+#dTitre h1{
+    font-size: 65px;
+    text-align: center;
+}
+#dRegles{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#dRegles p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#diff{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#difP{
+
+    width: 50%;
+    height: 33%;
+    display: flex;
+    justify-content:flex-end;
+}
+#difP p{
+    margin-right: 10%;
+}
+#difChoix{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#difChoix button{
+    width: 25%;
+    margin-left: 10%;
+}
+#coup1{
+margin-top: 7%;
+background-color: white;
+color: #2a2a2a;
+}
+#coup10{
+    margin-bottom: 7%;
+    }
+#btnPlay{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#play{
+    width: 25%;
+    height: 20%;
+}
+/*ECRAN DE JEU*/
+#menu{
+    width: 70vw;
+    height: 90vh;
+    border-radius: 4px;
+    background-color: #978a87;
+    display: none;
+}
+#joueur1{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#centre{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.space-game{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.prop-game{
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    transform: translateY(-8%);
+    margin-top: 4vh;
+    background-color: #464646;
+}
+
+#joueur2{
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.prop{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.prop img{
+    width: 180px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.btnEcranJeu{
+    width: 80%;
+    height: 6%;
+    margin-top: 35%;
+}
+
+.btnEcranJeu:hover{
+    background-color: white;
+    color: #2a2a2a;
+}
+
+/*ECRAN perdu*/
+#perdu{
+    width: 70vw;
+    height: 90vh;
+    border-radius: 4px;
+    background-color: #978a87;
+    display: none;
+    flex-direction: column;
+}
+.ctnTitre{
+height: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ctnTitre h1{
+    font-size: 75px;
+}
+.ctn{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 30%;
+}
+.ctn button{
+    width: 25%;
+    height: 20%;
+    margin-top: 0;
+}
+/*ECRAN win*/
+#gagne{
+    width: 70vw;
+    height: 90vh;
+    border-radius: 4px;
+    background-color: #978a87;
+    display: none;
+    flex-direction: column;
+}
+.ctnTitre{
+height: 70%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ctnTitre h1{
+    font-size: 75px;
+}
+.ctn{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 30%;
+}
+.ctn button{
+    width: 25%;
+    height: 20%;
+    margin-top: 0;
+}
